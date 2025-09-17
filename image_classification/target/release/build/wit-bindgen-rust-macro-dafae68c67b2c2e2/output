@@ -1,0 +1,2 @@
+cargo:rerun-if-changed=build.rs
+cargo:rustc-env=DEBUG_OUTPUT_DIR=/Users/athanasiapharmake/workspace/rise-thesis-wasm-tasks/image_classification/target/release/build/wit-bindgen-rust-macro-dafae68c67b2c2e2/out

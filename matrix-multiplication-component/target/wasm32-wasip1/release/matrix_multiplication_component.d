@@ -1,0 +1,1 @@
+/Users/athanasiapharmake/workspace/rise-thesis-wasm-tasks/matrix-multiplication-component/target/wasm32-wasip1/release/matrix_multiplication_component.wasm: /Users/athanasiapharmake/workspace/rise-thesis-wasm-tasks/matrix-multiplication-component/src/lib.rs /Users/athanasiapharmake/workspace/rise-thesis-wasm-tasks/matrix-multiplication-component/wit/matrix.wit

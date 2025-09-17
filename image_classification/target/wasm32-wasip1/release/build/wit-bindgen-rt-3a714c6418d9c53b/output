@@ -1,0 +1,2 @@
+cargo:rustc-link-lib=wit_bindgen_cabi_realloc0_32_0
+cargo:rustc-link-search=native=/Users/athanasiapharmake/workspace/rise-thesis-wasm-tasks/image_classification/target/wasm32-wasip1/release/build/wit-bindgen-rt-3a714c6418d9c53b/out
