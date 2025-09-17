@@ -1,0 +1,37 @@
+[package]
+name = "inference-component-onnx"
+version = "0.1.0"
+edition = "2024"
+authors = ["natassa farmaki"]
+readme = "README.md"
+publish = false
+
+[dependencies]
+wit-bindgen = { version = "0.32.0",  default-features = false, features = ["macros"] }
+image = { version = "0.25.2", default-features = false, features = ["jpeg"] }
+ndarray = "0.16.1"
+anyhow = "1.0.99"
+serde_json = "1.0.142"
+base64 = "0.22.1"
+
+[profile.release]
+codegen-units = 1
+opt-level = "s"
+debug = false
+strip = true
+lto = true
+
+[package.metadata.component]
+package = "component:classification-component-onnx"
+
+[package.metadata.component.target.dependencies]
+
+# This crate is built with the wasm32-wasip1 target, so it's separate
+# from the main Wasmtime build, so use this directive to exclude it
+# from the parent directory's workspace.
+[workspace]
+
+
+[lib]
+crate-type = ["cdylib"]
+
