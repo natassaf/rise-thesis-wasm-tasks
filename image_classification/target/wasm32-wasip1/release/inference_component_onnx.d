@@ -1,1 +1,0 @@
-/Users/athanasiapharmake/workspace/rise-thesis-wasm-tasks/image_classification/target/wasm32-wasip1/release/inference_component_onnx.wasm: /Users/athanasiapharmake/workspace/rise-thesis-wasm-tasks/image_classification/src/lib.rs /Users/athanasiapharmake/workspace/rise-thesis-wasm-tasks/image_classification/wit/wasi-nn.wit

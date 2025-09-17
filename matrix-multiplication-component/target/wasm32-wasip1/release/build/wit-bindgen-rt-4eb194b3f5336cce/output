@@ -1,2 +1,0 @@
-cargo:rustc-link-lib=static=wit_bindgen_cabi0_43_0
-cargo:rustc-link-search=native=/Users/athanasiapharmake/workspace/rise-thesis-wasm-tasks/matrix-multiplication-component/target/wasm32-wasip1/release/build/wit-bindgen-rt-4eb194b3f5336cce/out
